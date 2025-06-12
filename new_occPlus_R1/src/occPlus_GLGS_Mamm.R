@@ -259,7 +259,7 @@ ncov_theta <- ncol(fitmodel$X_theta)
 X_psi <- fitmodel$X_psi
 X_ord <- fitmodel$X_ord
 X_theta <- fitmodel$X_theta
-d <- fitmodel$d
+d <- 4
 
 U_output0 <- 
   matrix_of_draws[,grepl("U\\[", colnames(matrix_of_draws))]
